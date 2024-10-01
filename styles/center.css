@@ -1,0 +1,124 @@
+main{
+    position: absolute;
+    width: 599px;
+    height: 2000px;
+    border-right: 0.5px solid rgb(71, 71, 71);
+    display: flex;
+    flex-direction: column;
+}
+
+.button-post-profile{
+    padding-bottom: 10px;
+}
+
+.type-section{
+    padding-left: 11px;
+    padding-top: 13px;
+    display: flex;
+    height: 155px;
+    border-bottom: 0.5px solid rgb(71, 71, 71);
+}
+
+.input-new{
+    background-color: black;
+    border: none;
+    width: 500px;
+    height: 50px;
+    outline: none;
+    color:rgb(215, 214, 214);
+    font-size: 20px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.input-new::placeholder{
+
+    font-size: 20px;
+}
+
+.can-reply-wrapper{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    color: #008DE0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 3px;
+    width: 150px;
+}
+
+.can-reply-wrapper:hover{
+    background-color: #008ee038;
+    border-radius: 5px;
+}
+
+.globe-img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.saperator{
+    border: 0.5px solid rgb(71, 71, 71);
+    width: 500px;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+.icons-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons-box{
+    display: flex;
+    align-items: center;
+}
+
+.icons-box img{
+    padding: 5px;
+    width: 25px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.icons-box img:hover{
+    background-color: #008ee057;
+    border-radius: 7px;
+}
+
+.gif-img{
+    scale: 1.3;
+}
+
+.button-post-profile{
+    background-color: rgb(29, 155, 240);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button-post-profile:hover{
+    opacity: 0.9;
+}
+
+.show-more-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 50px;
+    border-bottom: 0.5px solid rgb(71, 71, 71);
+    cursor: pointer;
+    color: #008DE0;
+}
+
+.show-more-main:hover{
+    background-color: rgba(38, 38, 38, 0.312);
+}

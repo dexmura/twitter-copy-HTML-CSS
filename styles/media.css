@@ -1,0 +1,149 @@
+
+@media (max-width: 1450px){
+    .subscribe-box, .trends-box, .follow-box, .terms-box{
+        right: 0;
+    }
+    .right-bar-sticky{
+        right: 0;
+    }
+}
+
+@media (max-width: 1350px) {
+    body{
+        padding-left: 200px;
+    }
+
+    .search-bar{
+        width: 290px;
+    }
+
+    .right-bar-sticky{
+        right: 0;
+    }
+    header{
+        width: 200px;
+        
+    }
+
+    .top-wrapper, .bottom-wrapper-profile{
+        margin-left: -100px;
+    }
+
+    .more-img{
+        display: none;
+    }
+
+    .bottom-wrapper-profile{
+        width: 170px;
+    }
+
+    .top-sticky{
+        width: 400px;
+        margin-left: -178px;
+    }
+}
+
+@media (max-width: 1300px){
+    .subscribe-box, .trends-box, .follow-box, .terms-box, .search-bar{
+        width: 300px;
+        right: 0;
+    }
+
+}
+@media (max-width: 1200px){
+    .subscribe-box, .trends-box, .follow-box, .terms-box, .search-bar{
+        width: 250px;
+        right: 0;
+    }
+}
+@media (max-width: 1110px){
+    .subscribe-box, .trends-box, .follow-box, .terms-box, .right-bar-sticky, .search-bar, .search-img{
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    body{
+        padding-left: 111px;
+    }
+
+    header{
+        width: 50px; 
+    }
+
+    .img_name_box{
+        margin-right: 0px;
+        width: 0;
+    }
+
+    .img_name_box img{
+        padding: 10px;
+        scale: 1;
+    }
+
+    .img_name_box img:hover{
+        background-color: rgba(93,93,93, .3);
+        border-radius: 15px;
+    }
+
+    nav p{
+        display: none;
+    }
+
+    .top-wrapper, .bottom-wrapper-profile{
+        margin-left: -80px;
+    }
+
+    .more-img{
+        display: none;
+    }
+
+    .bottom-wrapper-profile{
+        width: 0;
+    }
+    .bottom-wrapper-profile p{
+        display: none;
+    }
+    .top-sticky{
+        width: 350px;
+        margin-left: -267px;
+    }
+}
+
+@media (width<800px){
+
+
+    .top-wrapper, .bottom-wrapper-profile{
+        margin-left: -80px;
+    }
+    
+    .top-sticky{
+        width: 300px;
+        margin-left: -267.5px;
+    }
+    .left, .right{
+        width: 250px;
+    }
+
+    main{
+        width: 500px;
+    }
+
+   .post-img{
+    width: 300px;
+    height: 200px;
+   }
+
+   .saperator{
+        width: 400px;
+   }
+
+   .input-new{
+        width: 350px;
+   }
+
+   .left-icons{
+    width: 340px;
+    margin-right: 10px;
+   }
+}

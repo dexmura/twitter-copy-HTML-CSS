@@ -1,0 +1,183 @@
+.right-bar-sticky {
+    position:absolute;
+    top: 54px;
+    right: 100px; /* Відступ справа */
+    width: 393px;
+    bottom: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    height: 1000px;
+    transition: 0.2s;
+}
+
+.subscribe-box, .trends-box, .follow-box, .terms-box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 0.5px solid rgb(71, 71, 71);
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 12px;
+    padding: 13px 20px 13px 13px;
+}
+
+.text-header{
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-info{
+    font-size: 15px;
+}
+
+.subscribe-button{
+    width: 120px;
+    margin-top: 15px;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.subscribe-button:hover{
+    opacity: 0.9;
+}
+
+.reccomends-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.left-info{
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.head-info{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.tags-info{
+    color: rgb(76, 78, 81);
+    font-size: 14px;
+}
+
+.more-img-recom{
+    width: 20px;
+    padding:4px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.more-img-recom:hover{
+    background-color: rgb(62, 172, 245);
+    border-radius: 10px;
+}
+
+.left-info:hover{
+    background-color: rgb(22, 22, 22);
+    border-radius: 5px;
+}
+
+.more-txt-wrapper{
+    margin-top: 30px; 
+}
+
+.show-more-txt{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.show-more-txt:hover{
+    opacity: 0.7;
+}
+
+.profiles-wrapper{
+    margin-top: 20px;
+}
+
+.profiles-wrapper, .left-wrapper-profile, .profile-info-wrapper, .terms-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-info-wrapper{
+    flex-direction: column;
+    align-items: start;
+}
+
+.name-profile{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.name-profile:hover{
+    text-decoration: underline;
+}
+
+.avatar-profile{
+    cursor: pointer;
+}
+
+.avatar-profile:hover{
+    opacity: 0.9;
+}
+
+.follow-button{
+    padding: 8px 20px 8px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.follow-button:hover{
+    opacity: 0.8;
+}
+
+.terms-box{
+    flex-direction: column;
+    border: none;
+}
+
+.first-row, .second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-row p, .second-row p{
+    margin: 5px;
+}
+
+.terms-txt{
+    font-size: 13px;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.terms-txt:hover{
+    text-decoration: underline;
+}
+
+.profile-info-wrapper p{
+    display: flex;
+    align-items: center;
+}

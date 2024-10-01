@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    ;
+    color: rgb(215, 214, 214);
+    height:2000px;
+    padding-left: 378px;
+    padding-top: 54px;
+    padding-right: 378px;
+    display: flex;
+    transition: 0.2s;
+}
+
+
+

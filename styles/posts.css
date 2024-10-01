@@ -1,0 +1,106 @@
+.main-posts{
+    padding-top: 13px;
+    padding-left: 11px;
+    padding-right: 15px;
+    display: flex;
+    border-bottom: 0.5px solid rgb(71, 71, 71);
+
+}
+
+.wrapper-post{
+    display: flex;
+    margin-bottom: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-wrapper{
+    display: flex;
+}
+.tag-info-post, .dot, .date{
+    margin-left:5px;
+    color: grey;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.date:hover{
+    text-decoration: underline;
+}
+
+.check-img{
+    width: 18px;
+    height: 18px;
+    margin-left: 2px;
+}
+
+article span{
+    color: rgb(1, 155, 226);
+    cursor: pointer;
+    text-align: start;
+}
+
+.text-post p{
+    margin-top: 5px;
+}
+
+.post-img{
+    width: 510px;
+    height: 300px;
+    border: 0.5px solid rgb(71, 71, 71);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.under-post-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.left-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.icon-wrapper{
+    display:flex;
+    align-items: center;
+}
+
+.icon-wrapper p{
+    color:#898989;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.under-post-icons img{
+    width: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+
+.icon-wrapper p:hover{
+    color: rgb(1, 155, 226);
+}
+
+.like-img:hover{
+    background-color: rgba(255, 0, 123, 0.47);
+    border-radius: 8px;
+}
+
+.retweet-img:hover{
+    background-color: rgba(0, 255, 42, 0.47);
+    border-radius: 8px;
+}
+
+.blue-hover:hover{
+    background-color: rgba(1, 155, 226, 0.666);
+    border-radius: 8px;
+}

@@ -1,0 +1,85 @@
+.top-sticky{
+    position: fixed;
+    top: 0;
+    left: 378px;
+    right:0;
+    z-index: 2;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.839);
+}
+
+.left-sidebar{
+    width: 599px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: 0.5px solid rgb(71, 71, 71);
+    border-right: 0.5px solid rgb(71, 71, 71);
+
+}
+
+.left, .right{
+    width: 299.5px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: 0.5px solid rgb(71, 71, 71);
+    background-color: rgba(0, 0, 0, 0.679);
+}
+
+.left:hover, .right:hover{
+    background-color: rgba(93,93,93, .3);
+}
+
+.top-right-search{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.search-bar{
+    background-color: rgb(32, 35, 40);
+    border:none;
+    height: 45px;
+    width: 350px;
+    border-radius: 40px;
+    outline: none;
+    color: rgb(163, 163, 163);
+    padding-left: 60px;
+    color: white;
+}
+
+.search-bar:focus{
+    outline: 1px solid rgb(0, 174, 255);
+    background-color: black;
+}
+
+.search-img{
+    width: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.wrapper-for-img{
+    border:none;
+    width: 20px;
+    height: 35px;
+    margin-right:-38px ;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar::placeholder{
+    font-size: 15px;
+}
+
+
