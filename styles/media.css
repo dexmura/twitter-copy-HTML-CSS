@@ -110,7 +110,7 @@
     }
 }
 
-@media (width<800px){
+@media (width<800px) and (width > 501){
 
 
     .top-wrapper, .bottom-wrapper-profile{
@@ -146,4 +146,52 @@
     width: 340px;
     margin-right: 10px;
    }
+}
+
+@media (max-width:500px){
+    header{
+        width: 50px;
+        padding-left: 90px;
+    }
+
+    .top-wrapper,.bottom-wrapper-profile{
+        margin-left:-70px;
+    }
+
+    .button-post{
+        display: none;
+    }
+
+    .top-sticky{
+        margin-left: -286px;
+    }
+    .left, .right{
+        width: 210px;
+    }
+
+    main{
+        width: 410px;
+    }
+
+    .saperator{
+        width: 300px;
+   }
+
+   body{
+    padding-left: 90px;
+     } 
+
+    .post-img{
+        width: 280px;
+        height: 160px;
+       }
+
+       .left-icons{
+        width: 250px;
+        margin-right: 10px;
+       }
+
+    .input-new{
+        width: 300px;
+    }
 }
