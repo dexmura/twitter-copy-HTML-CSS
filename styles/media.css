@@ -1,5 +1,5 @@
 
-@media (max-width: 1450px){
+@media (max-width: 1430px){
     .subscribe-box, .trends-box, .follow-box, .terms-box{
         right: 0;
     }
@@ -150,16 +150,11 @@
 
 @media (max-width:500px){
     header{
-        width: 50px;
         padding-left: 90px;
     }
 
     .top-wrapper,.bottom-wrapper-profile{
         margin-left:-70px;
-    }
-
-    .button-post{
-        display: none;
     }
 
     .top-sticky{

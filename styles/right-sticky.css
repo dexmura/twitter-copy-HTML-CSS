@@ -77,12 +77,13 @@
 .more-img-recom{
     width: 20px;
     padding:4px;
-    transition: 0.1s;
+    transition: 0.2s;
     cursor: pointer;
+    opacity: 0.5;
 }
 
 .more-img-recom:hover{
-    background-color: rgb(62, 172, 245);
+    background-color: rgba(0, 149, 249, 0.671);
     border-radius: 10px;
 }
 

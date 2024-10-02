@@ -2,11 +2,13 @@ main{
     position: absolute;
     width: 599px;
     height: 2000px;
-    border-right: 0.5px solid rgb(71, 71, 71);
     display: flex;
     flex-direction: column;
 }
 
+.top-profile, .show-more-main{
+    border-right: 0.5px solid rgb(71, 71, 71);
+}
 .button-post-profile{
     padding-bottom: 10px;
 }
@@ -63,6 +65,7 @@ main{
     width: 500px;
     height: 1px;
     margin-bottom: 5px;
+    transition: 0.2s;
 }
 
 .icons-wrapper{
