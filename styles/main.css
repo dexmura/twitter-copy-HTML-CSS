@@ -18,5 +18,9 @@ body{
     transition: 0.2s;
 }
 
+body{
+    animation: body-anim 1.5s ease-in-out;
+}
+
 
 

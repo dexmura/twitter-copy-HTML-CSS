@@ -1,0 +1,38 @@
+.loading-screen{
+    background-color: rgba(0, 0, 0, 0.775);
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+    border-radius: 20px;
+    animation: pulse 1s ease-in-out;
+    animation-iteration-count: 1;
+    visibility: hidden;
+}
+
+.loading-logo{
+    width: 120px;
+    padding: 20px;
+    visibility: hidden;
+    animation: pulse 1s ease-in-out;
+}
+
+@keyframes pulse {
+    from{
+        opacity: 1;
+        visibility: visible;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes body-anim {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
